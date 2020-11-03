@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/Black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="login_email_password_style" parent="android:Widget.EditText" >
+        <item name="android:textColor">#C89898</item>
+        <item name="android:textColorHint">#C89898</item>
+        <item name="android:background">@color/GhostWhite</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:fontFamily">serif-monospace</item>
+    </style>
+
+    <style name="text_view_regiter" parent="android:Widget.TextView">
+        <item name="android:textColor">#C89898</item>
+        <item name="android:textColorHint">#C89898</item>
+        <item name="android:padding">20px</item>
+        <item name="android:fontFamily">serif-monospace</item>
+    </style>
+</resources>
